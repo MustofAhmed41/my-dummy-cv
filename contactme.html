@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>My Contact</h1>
+    <p>yabi yabi ya</p>
+    <p>Chicken Nugger</p>
+    <p>Burger Eater</p>
+
+    <!-- creating forms-->
+    <!--When we create the form, this action is set to the previous file-->
+    <!-- <form class="" action="index.html" method="post">-->
+    <!--What this does is that when we press any button, this by default
+    will perform that action. for this action="index.html" implies it will
+    open the index.html file
+  -->
+
+    <form class="" action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain">
+      <!--This opens an email form to the email given  and enctype implies the encoding format
+      action="mailto:info@londonappbrewery.com" takes us to email this website
+      info@londonappbrewery.com
+    -->
+
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br> <!-- creates text input field to take name-->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>  <!-- creates text input field to take input email-->
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>  <!-- creates text input area-->
+      <!-- creating forms-->
+      <input type="submit" name=""> <!--DONT ADD VALUE ATTRIBUTE TO SUBMIT-->
+      <!-- This creates a submit button-->
+
+       <!-- There are many input types like date picker, color picker,
+       checkbox, radio box etc...
+     -->
+
+    </form>
+  </body>
+</html>
